@@ -6,7 +6,7 @@ const educations = [
     institution: "MI Mazroatussyibyan",
     description:
       "Membangun fondasi intelektual yang kuat melalui prestasi akademik dan ekstrakurikuler.",
-    logo: "/logo mi.jpeg",
+    logo: "/logo-mi.jpeg",
     color: "from-rose-400 to-fuchsia-500",
   },
   {
@@ -22,7 +22,7 @@ const educations = [
     institution: "MAN 4 Bogor",
     description:
       "Sinergi antara penguasaan sains dan pengembangan kepemimpinan melalui aktivitas organisasi .",
-    logo: "/logo man 4.jpeg",
+    logo: "/logo-man-4.jpeg",
     color: "from-rose-400 to-fuchsia-500",
   },
   {
@@ -30,7 +30,7 @@ const educations = [
     institution: "Universitas Padjajaran – Sastra Arab ",
     description:
       "Memadukan analisis linguistik dengan ketangkasan manajerial di organisasi serta eksplorasi industri kreatif.",
-    logo: "/logo unpad.jpeg",
+    logo: "/logo-unpad.jpeg",
     color: "from-rose-500 to-purple-600",
   },
 ];
@@ -98,7 +98,7 @@ const Education = () => {
                       {/* LOGO (KANAN) */}
                       <div className="w-16 h-16 rounded-xl border border-rose-100 bg-white shadow-sm flex items-center justify-center overflow-hidden shrink-0">
                         <img
-                          src={edu.logo}
+                          src={import.meta.env.BASE_URL + edu.logo.replace(/^\//, "")}
                           alt={`${edu.institution} logo`}
                           className="w-full h-full object-contain"
                         />

@@ -172,7 +172,7 @@ const Hero = () => {
 
                 <div className="absolute inset-2 rounded-full overflow-hidden shadow-xl">
                   <img
-                    src="/foto-dini.jpeg"
+                    src={import.meta.env.BASE_URL + "foto-dini.jpeg"}
                     alt="Siti Tri Andini"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                   />

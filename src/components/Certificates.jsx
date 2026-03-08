@@ -3,19 +3,19 @@ import { useState } from "react";
 const certificates = [
   {
     title: "Master Of Ceremony",
-    image: "/public/sertif mc.jpeg",
+    image: "/sertif-mc.jpeg",
     link: "",
     category: "Campus Expo",
   },
   {
     title: "Pramuka Penegak Garuda Kab.Bogor",
-    image: "/public/sertif garuda.jpeg",
+    image: "/sertif-garuda.jpeg",
     link: "",
     category: "Prestasi",
   },
   {
     title: "Campus Creator Network",
-    image: "/public/sertif ccn.jpeg",
+    image: "/sertif-ccn.jpeg",
     link: "",
     category: "Peserta",
   },
@@ -84,7 +84,7 @@ export default function Certificates() {
               {/* Image */}
               <div className="relative h-56 bg-slate-100 overflow-hidden">
                 <img
-                  src={cert.image}
+                  src={import.meta.env.BASE_URL + cert.image.replace(/^\//, "")}
                   alt={cert.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />

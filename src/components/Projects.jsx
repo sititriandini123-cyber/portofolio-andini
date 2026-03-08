@@ -5,7 +5,7 @@ const projects = [
     title: "Sosialisasi Aplikasi Strava",
     description: "Mengedukasi kelompok ibu-ibu dan bapak-bapak mengenai penggunaan aplikasi Strava untuk memantau aktivitas fisik, dengan peran sebagai MC.",
     tech: ["Public Speaking", "MC", "Education"],
-    image: "/foto strava.jpeg",
+    image: "/foto-strava.jpeg",
     demo: null,
     code: null,
     category: "Public",
@@ -14,7 +14,7 @@ const projects = [
     title: "Digital Content Creator - Campus Creator Network by Paragon",
     description: "Memproduksi konten untuk mempromosikan produk, melalui program campus creator network yang diselenggarakan oleh Paragon. Peran: Creative Strategist & Content Creator.",
     tech: ["Creative Strategist", "Content Creator"],
-    image: "/projek ccn.jpeg",
+    image: "/projek-ccn.jpeg",
     demo: "https://instagram.com/inst.dinii_",
     code: null,
     category: "Content Creation",
@@ -23,7 +23,7 @@ const projects = [
     title: "Founder ANDN Fashion",
     description: "Menginisiasi bisnis hijab dengan pendekatan digital.",
     tech: ["Business", "Digital Marketing", "Fashion"],
-    image: "/logo andn.png",
+    image: "/logo-andn.png",
     demo: "https://www.instagram.com/andn_fashion?igsh=d29tN3phemptanJn",
     code: null,
     category: "Enterpreneurship",
@@ -107,7 +107,7 @@ const Projects = () => {
                 data-aos-delay={index * 100}
                 className="bg-white/80 backdrop-blur-xl rounded-2xl border border-rose-100 shadow-sm transition-all duration-300 hover:shadow-[0_8px_30px_rgba(244,63,94,0.12)] hover:-translate-y-1">
                 <img
-                  src={project.image}
+                  src={import.meta.env.BASE_URL + project.image.replace(/^\//, "")}
                   alt={project.title}
                   className="h-56 w-full object-cover rounded-t-2xl"
                 />

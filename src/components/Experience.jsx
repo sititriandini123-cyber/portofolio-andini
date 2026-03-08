@@ -6,7 +6,7 @@ const experiences = [
     date: "Februari 2024 - Januari 2025",
     description:
       "Bertanggung jawab atas manajemen operasional, penyusunan jadwal latihan, serta pembekalan teknis untuk persiapan kompetisi.",
-    logo: "/logo dipodesa.jpeg",
+    logo: "/logo-dipodesa.jpeg",
     instagramUrl: "https://www.instagram.com/scoutdipodesa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
@@ -14,7 +14,7 @@ const experiences = [
     date: "Agustus 2024",
     description:
       "Menyandang gelar kehormatan pramuka tertinggi tingkat penegak.",
-    logo: "/logo kwarcab.jpeg",
+    logo: "/logo-kwarcab.jpeg",
     instagramUrl: "https://www.instagram.com/kwarcab_kabbogor?igsh=NTZrZjNhNXE1eDd3",
   },
   {
@@ -22,7 +22,7 @@ const experiences = [
     date: "Oktober 2025 - sekarang",
     description:
       "Menjadi seorang yang berperan dalam kegiatan acara seperti acting dan mengatur hubungan antar internal.",
-    logo: "/logo kpm.jpeg",
+    logo: "/logo-kpm.jpeg",
     instagramUrl: "https://www.instagram.com/kpmunpad?igsh=b29pb2p0dGg2OXB5",
   },
   {
@@ -30,7 +30,7 @@ const experiences = [
     date: "Oktober 2025 - Januari 2026",
     description:
       "Mengoptimalkan branding digital dan jangkauan konten kreatif melalui analisis trend dan strategi storytelling.",
-    logo: "/logo ccn.jpeg",
+    logo: "/logo-ccn.jpeg",
     instagramUrl: "https://www.instagram.com/campuscreatornetwork?igsh=MWV0cGlqc3A4dnAwaQ==",
   },
   {
@@ -38,7 +38,7 @@ const experiences = [
     date: "Februari 2026 - sekarang",
     description:
       "Berada di staff hubungan eksternal, bekerja sama dengan pihak eksternal.",
-    logo: "/logo himasa.jpeg",
+    logo: "/logo-himasa.jpeg",
     instagramUrl: "https://www.instagram.com/himasaunpad?igsh=NDZkY2t6Ymh2aHg2",
   },
 ];
@@ -95,7 +95,7 @@ const Experience = () => {
                     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between">
                       <div className="flex items-center gap-4 mb-4 sm:mb-0">
                         <img
-                          src={exp.logo}
+                          src={import.meta.env.BASE_URL + exp.logo.replace(/^\//, "")}
                           alt={`${exp.title} logo`}
                           className="w-12 h-12 rounded-xl border border-rose-100 shadow-sm object-contain bg-white"
                         />
@@ -159,7 +159,7 @@ const Experience = () => {
               </button>
             </div>
             <img
-              src={selectedImage}
+              src={import.meta.env.BASE_URL + selectedImage.replace(/^\//, "")}
               alt="Sertifikat"
               className="w-full object-contain"
             />
