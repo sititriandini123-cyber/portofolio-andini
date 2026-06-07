@@ -6,7 +6,7 @@ const experiences = [
     date: "Mei 2026 - Sekarang",
     description:
       "Sebagai brand ambassador sekaligus bagian dari tim kreatif, yang berfokus pada kolaborasi inovatif dan produksi konten visual..",
-    logo: "/logo lightplus.jpg",
+    logo: "/lightplus.jpg",
     instagramUrl: "https://www.instagram.com/lightplus_bandung?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
@@ -45,7 +45,7 @@ const experiences = [
 
 const Experience = () => {
   const [selectedImage, setSelectedImage] = useState(null);
-
+ 
   return (
     <section
       id="experience"
