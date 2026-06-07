@@ -2,27 +2,27 @@ import React, { useState } from "react";
 
 const experiences = [
   {
-    title: "Ketua pramuka",
-    date: "Februari 2024 - Januari 2025",
+    title: "Lightplus Crew",
+    date: "Mei 2026 - Sekarang",
     description:
-      "Bertanggung jawab atas manajemen operasional, penyusunan jadwal latihan, serta pembekalan teknis untuk persiapan kompetisi.",
-    logo: "/logo-dipodesa.jpeg",
-    instagramUrl: "https://www.instagram.com/scoutdipodesa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      "Sebagai brand ambassador sekaligus bagian dari tim kreatif, yang berfokus pada kolaborasi inovatif dan produksi konten visual..",
+    logo: "/logo lightplus.jpg",
+    instagramUrl: "https://www.instagram.com/lightplus_bandung?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     title: "Pramuka penegak garuda kab.bogor",
     date: "Agustus 2024",
     description:
       "Menyandang gelar kehormatan pramuka tertinggi tingkat penegak.",
-    logo: "/logo-kwarcab.jpeg",
+    logo: "/logo kwarcab.jpeg",
     instagramUrl: "https://www.instagram.com/kwarcab_kabbogor?igsh=NTZrZjNhNXE1eDd3",
   },
   {
     title: "Korps protokoler mahasiswa unpad",
     date: "Oktober 2025 - sekarang",
     description:
-      "Menjadi seorang yang berperan dalam kegiatan acara seperti acting dan mengatur hubungan antar internal.",
-    logo: "/logo-kpm.jpeg",
+      "pengaturan tata upacara dan koordinasi protokoler acara resmi universitas.",
+    logo: "/logo kpm.jpeg",
     instagramUrl: "https://www.instagram.com/kpmunpad?igsh=b29pb2p0dGg2OXB5",
   },
   {
@@ -30,7 +30,7 @@ const experiences = [
     date: "Oktober 2025 - Januari 2026",
     description:
       "Mengoptimalkan branding digital dan jangkauan konten kreatif melalui analisis trend dan strategi storytelling.",
-    logo: "/logo-ccn.jpeg",
+    logo: "/logo ccn.jpeg",
     instagramUrl: "https://www.instagram.com/campuscreatornetwork?igsh=MWV0cGlqc3A4dnAwaQ==",
   },
   {
@@ -38,7 +38,7 @@ const experiences = [
     date: "Februari 2026 - sekarang",
     description:
       "Berada di staff hubungan eksternal, bekerja sama dengan pihak eksternal.",
-    logo: "/logo-himasa.jpeg",
+    logo: "/logo himasa.jpeg",
     instagramUrl: "https://www.instagram.com/himasaunpad?igsh=NDZkY2t6Ymh2aHg2",
   },
 ];

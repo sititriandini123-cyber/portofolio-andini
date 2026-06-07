@@ -3,19 +3,19 @@ import { useState } from "react";
 const certificates = [
   {
     title: "Master Of Ceremony",
-    image: "/sertif-mc.jpeg",
+    image: "/sertif mc.jpeg",
     link: "",
     category: "Campus Expo",
   },
   {
     title: "Pramuka Penegak Garuda Kab.Bogor",
-    image: "/sertif-garuda.jpeg",
+    image: "/sertif garuda.jpeg",
     link: "",
     category: "Prestasi",
   },
   {
     title: "Campus Creator Network",
-    image: "/sertif-ccn.jpeg",
+    image: "/sertif ccn.jpeg",
     link: "",
     category: "Peserta",
   },
